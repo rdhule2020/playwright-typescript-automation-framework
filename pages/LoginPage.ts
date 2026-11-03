@@ -12,10 +12,13 @@ export class LoginPage extends BasePage{
     private readonly btnLogin : Locator;
     private readonly loginErrorText :Locator;
     private readonly loginTitleText :Locator;
+
     //Signup Section
     private readonly txtName : Locator;
     private readonly txtSignUpEmail :Locator
     private readonly btnSignup : Locator;
+    private readonly signUptitleText:Locator;
+    private readonly signupErrorText :Locator;
 
     //constructor
     constructor(page:Page){
@@ -32,6 +35,8 @@ export class LoginPage extends BasePage{
         this.txtName = page.getByPlaceholder('Name');
         this.txtSignUpEmail = page.locator('[data-qa="signup-email"]');
         this.btnSignup = page.getByRole('button', {name:'Signup'})
+        this.signUptitleText = page.getByRole('heading',{name:'New User Signup!', level:2});
+        this.signupErrorText = page.getByText('Email Address already exist!',{exact:true});
     }
     //action methods
 
@@ -126,6 +131,17 @@ export class LoginPage extends BasePage{
         }
     }
 
+        async newUserSignupText(): Promise<boolean>{
+            return await this.signUptitleText.isVisible();
+        }
+
+        async siguUpErrorMessage(){
+            return await this.signupErrorText.isVisible();
+        }
+
+        async signUpError(){
+            return await this.signupErrorText.innerText();
+        }
 
     //Perform login
     async performLogin(){
@@ -148,6 +164,11 @@ export class LoginPage extends BasePage{
         await this.clickSignup();
     }
 
+     async SignUpWithExistingUser(){
+        await this.setName(TEST_DATA.login.name);
+        await this.setEmailAddress(TEST_DATA.login.email);
+        await this.clickSignup();
+    }
     
     async openApplication(){
         await this.page.goto('/');

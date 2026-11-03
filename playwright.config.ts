@@ -18,7 +18,7 @@ export default defineConfig({
 
   use: {
     trace: 'on-first-retry',
-     baseURL:"https://automationexercise.com/",
+    baseURL:"https://automationexercise.com/",
     screenshot: 'only-on-failure',
     video: 'retain-on-failure',
     //headless: false,

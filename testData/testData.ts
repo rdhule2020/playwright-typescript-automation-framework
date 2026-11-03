@@ -2,6 +2,7 @@ import { SignUpPage } from "../pages/SignUpPage";
 
 export const TEST_DATA = {
     login:{
+        name: 'auto1',
         email: 'autouser1@gmail.com',
         pass : 'Admin1234'
     },

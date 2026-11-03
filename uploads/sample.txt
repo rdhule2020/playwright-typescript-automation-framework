@@ -1,0 +1,7 @@
+Contact Us - Playwright File Upload Testing
+
+Name: John Email: john@gmail.com Subject: Automation Testing - File Upload Message: This file is uploaded as part of Playwright automation testing using TypeScript and Page Object Model (POM).
+
+Test Scenario: Verify file upload functionality on Automation Exercise Contact Us page.
+
+Expected Result: File should upload successfully and the contact form should display a success confirmation message.

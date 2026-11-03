@@ -1,4 +1,4 @@
-import { Locator, Page } from '@playwright/test'
+import { expect, Locator, Page } from '@playwright/test'
 import { BasePage } from './BasePage';
 import { TEST_DATA } from '../testData/testData';
 
@@ -72,7 +72,7 @@ export class ContactUsPage extends BasePage {
 
         await this.btn_Submit.click();
     }
-    async IsSuccessMessageDisplayed() {
-        return await this.successText.isVisible();
+    async expectSuccessMessageDisplayed() {
+        await expect.soft(this.successText).toBeVisible();
     }
 }

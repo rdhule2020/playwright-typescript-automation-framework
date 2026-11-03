@@ -1,5 +1,5 @@
-import { ContactUsPage } from "../pages/ContactUsPage";
-import { SignUpPage } from "../pages/SignUpPage";
+// import { ContactUsPage } from "../pages/ContactUsPage";
+// import { SignUpPage } from "../pages/SignUpPage";
 
 export const TEST_DATA = {
     login:{

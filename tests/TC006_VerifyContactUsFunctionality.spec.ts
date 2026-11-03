@@ -1,6 +1,6 @@
 import {test, expect} from '../fixture/pageObjectFixture'
 import { TEST_DATA } from '../testData/testData';
-
+import { FileUploadUtils } from '../utils/fileUploadutils';
 
 test('Verify Contact Us feature', async({page, loginpage, homepage, contactus})=>{
 
@@ -14,7 +14,8 @@ test('Verify Contact Us feature', async({page, loginpage, homepage, contactus})=
         TEST_DATA.ContactUs.subject, 
         TEST_DATA.ContactUs.message
     );
-    await contactus.uploadFile(`F:\\Automation_Workspace\\PWFramework_AutomationExercise\\uploads\\sample.txt`)
+    const filePath = FileUploadUtils.getFilePath('sample.txt');
+    await contactus.uploadFile(filePath);
     await contactus.clickSubmitButton();
-    expect(await contactus.IsSuccessMessageDisplayed()).toBe(true);
+    await contactus.expectSuccessMessageDisplayed();
 })

@@ -2,7 +2,6 @@ export class TestConfig{
  
     appUrl="https://automationexercise.com/"
     
-  
     //valid login credentials
     email="user3a@gmail.com"
     password="Test@123"

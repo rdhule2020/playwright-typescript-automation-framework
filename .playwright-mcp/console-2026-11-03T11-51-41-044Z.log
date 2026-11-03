@@ -1,0 +1,78 @@
+[    2650ms] [ERROR] Mixed Content: The page at 'https://automationexercise.com/' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Roboto:400,300,400italic,500,700,100'. This request has been blocked; the content must be served over HTTPS. @ https://automationexercise.com/:0
+[    2650ms] [ERROR] Mixed Content: The page at 'https://automationexercise.com/' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Open+Sans:400,800,300,600,700'. This request has been blocked; the content must be served over HTTPS. @ https://automationexercise.com/:0
+[    2651ms] [ERROR] Mixed Content: The page at 'https://automationexercise.com/' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Abel'. This request has been blocked; the content must be served over HTTPS. @ https://automationexercise.com/:0
+[    9291ms] [INFO] Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://fonts.gstatic.com/s/googlesans/v76/4Ua_rENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RFD48TE63OOYKtrwEIJllpyk.woff2 @ https://automationexercise.com/:0
+[    9378ms] [INFO] Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://fonts.gstatic.com/s/googlesans/v76/4Ua_rENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RFD48TE63OOYKtrzjJ5llpyk.woff2 @ https://automationexercise.com/:0
+[   16248ms] [ERROR] Mixed Content: The page at 'https://automationexercise.com/test_cases' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Roboto:400,300,400italic,500,700,100'. This request has been blocked; the content must be served over HTTPS. @ https://automationexercise.com/test_cases:18
+[   16248ms] [ERROR] Mixed Content: The page at 'https://automationexercise.com/test_cases' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Open+Sans:400,800,300,600,700'. This request has been blocked; the content must be served over HTTPS. @ https://automationexercise.com/test_cases:18
+[   16248ms] [ERROR] Mixed Content: The page at 'https://automationexercise.com/test_cases' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Abel'. This request has been blocked; the content must be served over HTTPS. @ https://automationexercise.com/test_cases:18
+[  135523ms] [ERROR] Mixed Content: The page at 'https://automationexercise.com/test_cases' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Roboto:400,300,400italic,500,700,100'. This request has been blocked; the content must be served over HTTPS. @ https://automationexercise.com/test_cases:18
+[  135524ms] [ERROR] Mixed Content: The page at 'https://automationexercise.com/test_cases' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Open+Sans:400,800,300,600,700'. This request has been blocked; the content must be served over HTTPS. @ https://automationexercise.com/test_cases:18
+[  135524ms] [ERROR] Mixed Content: The page at 'https://automationexercise.com/test_cases' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Abel'. This request has been blocked; the content must be served over HTTPS. @ https://automationexercise.com/test_cases:18
+[ 4539729ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://pagead2.googlesyndication.com/pcs/activeview?xai=AKAOjsuMpuii3ItPXtFNSUMKeWlxWss0BAg17B4IQhhab7t5YooKwRJMufCNDW5U4EMNEzvlD3a_8BXPILqCVR92RvONF3zjWR7OfgTLDZhuVvUM3fBRfr2eXl_vCWqgUYqwKrnk8x03xGtgntUV34jke24OOniUSDR_MYeZUFx5OC1zHzs-byVTyTqhpUVmbX_x8wiocs0ipqO6qmkXG1ewoZ-cuA&sai=AMfl-YRfnlHBWKq23WwujqM2Z3NkRo5WIsI6Tgc3aKIBwfzTunm2MV1lFY2ez7sXa86MvPpM08kILftZH1lSrnWZRyRwz4c1WrKUnpcuZrbMSEzRbycmY_Qhall-3FoBXlmqCryd44yCINijQLs7n9sMMuAFQ2qYR8orR_P2xMZoNqnVz52wtGVPIA3vRI_M1eYp1Daeh1Cg9oOdluo0XOA8PVHgDCmIj--RhIIu8BEOwkwpYwnuRBFx_ZbhfA5Cb_YQ9E-SiC-pFKEko9hXbVU33ty7tdwoX25u1JMeP9xSGE7_yhlZhSEi2dP_pWCL2eTGMU7BNjZblKhz5LEJC23YcLrQTUrycoDw71F0mvG5ZBMZydk3iWv-YVzW-HD-rbY_JpE2XLdjMFXF9QV6bXp28mE&sig=Cg0ArKJSzHWBDO0QhVU_EAE&cid=CAQSjAIAQM4h3Gqrheh1io-Sj8eFgbM_ue_PzI1PHxSHIDxvJ_m0CMvWmsSpbpCeap9Zy7H47zy-zAk2vcj_4ObjgT6P3U1lgfdtGWTcMTqGN6Bcz2bVI5rvj4WV_lxhbQAy2RORROsfVbofYOqtzdn7OMG_JNdcIC8RZsjvnsb_4eABFZIDAOliycKHCRwALbL2c4N7jdIz8dl8cDipug9tfaLNTio3j9Wm5Vs6acP_FB6hY_bOyR7r9XvgXnwr0ZUhzE1nOUFC5d6FNuIMlrp920z5q0lyjmldJL6hmonZTwxsDl-BbAQtOskiB0kEjeVA63kPy6MPfsWJiPbfF22E6EJGA3eWWC6NTQ25BACOGAE&id=lidartos&mcvt=4401569&p=0,0,90,728&tm=4402014.399999999&tu=445.5&mtos=4401273,4401569,4401569,4401569,4401569&tos=4401273,296,0,0,0&v=20261019&bin=7&avms=nio&bs=0,0&mc=1&if=1&vu=1&app=0&itpl=20&adk=1812271801&rs=2&la=0&cr=0&uach=WyJXaW5kb3dzIiwiMTAuMCIsIng4NiIsIiIsIjE1MS4wLjc5MjIuMzQiLG51bGwsMCxudWxsLCI2NCIsW1siQ2hyb21pdW0iLCIxNTEuMC43OTIyLjM0Il0sWyJOb3Q9QT9CcmFuZCIsIjk5LjAuMC4wIl1dLDBd&vs=4&r=t&co=8963963801&rst=1793706838348&rpt=297&ec=1&met=ce&wmsd=0&pbe=0&fle=0&vae=0&spb=0&sfl=0&ffslot=0&reach=8&io2=0:0
+[ 4539730ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://pagead2.googlesyndication.com/pagead/ping?e=1:0
+[ 4539730ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://pagead2.googlesyndication.com/pagead/ping?e=1:0
+[ 4539733ms] Uncaught (in promise) TypeError: Failed to fetch
+    at <anonymous> (https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:131:727)
+    at Kg.ping (https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:131:684)
+    at rf.sendNow (https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:106:244)
+    at <anonymous> (https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:283:201)
+    at <anonymous> (https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:283:174)
+    at <anonymous> (https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:93:479)
+    at O.b.fe (https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:92:988)
+    at n.next (https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:81:597)
+    at n.fe (https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:81:830)
+    at n.next (https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:81:597)
+    at n.next (https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:84:1012)
+    at bd.next (https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:91:801)
+    at pc.next (https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:82:217)
+    at n.fe (https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:81:830)
+    at n.next (https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:81:597)
+    at n.fe (https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:81:830)
+    at n.next (https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:81:597)
+    at n.next (https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:84:1012)
+    at bd.next (https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:91:801)
+    at pc.next (https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:82:217)
+    at n.fe (https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:81:830)
+    at n.next (https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:81:597)
+    at n.fe (https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:81:830)
+    at n.next (https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:81:597)
+    at n.next (https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:84:1012)
+    at bd.next (https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:91:801)
+    at pc.next (https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:82:217)
+    at n.fe (https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:81:830)
+    at n.next (https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:81:597)
+    at n.fe (https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:81:830)
+    at n.next (https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:81:597)
+    at n.next (https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:84:1012)
+    at bd.next (https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:91:801)
+    at pc.next (https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:82:217)
+    at n.fe (https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:81:830)
+    at n.next (https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:81:597)
+    at <anonymous> (https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:104:903)
+    at O.b.fe (https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:92:988)
+    at n.next (https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:81:597)
+    at <anonymous> (https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:93:472)
+    at O.b.fe (https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:92:988)
+    at n.next (https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:81:597)
+    at n.fe (https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:81:830)
+    at n.next (https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:81:597)
+    at <anonymous> (https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:267:1973)
+    at Ua (https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:51:338)
+    at Pa.flush (https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:51:146)
+    at Ra (https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:50:647)
+    at <anonymous> (https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:150:290)
+    at pc.next (https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:82:217)
+    at n.fe (https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:81:830)
+    at n.next (https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:81:597)
+    at <anonymous> (https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:103:1071)
+    at O.b.fe (https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:92:988)
+    at n.next (https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:81:597)
+    at <anonymous> (https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:98:1543)
+    at O.b.fe (https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:92:988)
+    at n.next (https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:81:597)
+    at <anonymous> (https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:103:940)
+    at O.b.fe (https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:92:988)
+    at n.next (https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:81:597)
+    at <anonymous> (https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:105:167)
+    at <anonymous> (https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:50:314)

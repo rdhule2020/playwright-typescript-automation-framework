@@ -1,0 +1,156 @@
+- generic [active] [ref=f10e1]:
+  - banner [ref=f10e2]:
+    - generic [ref=f10e5]:
+      - link [ref=f10e8] [cursor=pointer]:
+        - /url: /
+        - img "Website for practice automation" [ref=f10e9]
+      - list [ref=f10e12]:
+        - listitem [ref=f10e13]:
+          - link " Home" [ref=f10e14] [cursor=pointer]:
+            - /url: /
+            - generic [ref=f10e15]: 
+            - text: Home
+        - listitem [ref=f10e16]:
+          - link " Products" [ref=f10e17] [cursor=pointer]:
+            - /url: /products
+            - generic [ref=f10e18]: 
+            - text: Products
+        - listitem [ref=f10e19]:
+          - link " Cart" [ref=f10e20] [cursor=pointer]:
+            - /url: /view_cart
+            - generic [ref=f10e21]: 
+            - text: Cart
+        - listitem [ref=f10e22]:
+          - link " Signup / Login" [ref=f10e23] [cursor=pointer]:
+            - /url: /login
+            - generic [ref=f10e24]: 
+            - text: Signup / Login
+        - listitem [ref=f10e25]:
+          - link " Test Cases" [ref=f10e26] [cursor=pointer]:
+            - /url: /test_cases
+            - generic [ref=f10e27]: 
+            - text: Test Cases
+        - listitem [ref=f10e28]:
+          - link " API Testing" [ref=f10e29] [cursor=pointer]:
+            - /url: /api_list
+            - generic [ref=f10e30]: 
+            - text: API Testing
+        - listitem [ref=f10e31]:
+          - link " Video Tutorials" [ref=f10e32] [cursor=pointer]:
+            - /url: https://www.youtube.com/c/AutomationExercise
+            - generic [ref=f10e33]: 
+            - text: Video Tutorials
+        - listitem [ref=f10e34]:
+          - link " Contact us" [ref=f10e35] [cursor=pointer]:
+            - /url: /contact_us
+            - generic [ref=f10e36]: 
+            - text: Contact us
+  - generic [ref=f10e38]:
+    - heading "Test Cases" [level=2] [ref=f10e41]
+    - generic [ref=f10e42]:
+      - heading "Below is the list of test Cases for you to practice the Automation. Click on the scenario for detailed Test Steps:" [level=5] [ref=f10e43]
+      - heading [level=4] [ref=f10e46]:
+        - 'link "Test Case 1: Register User" [ref=f10e47] [cursor=pointer]':
+          - /url: "#collapse1"
+    - heading [level=4] [ref=f10e51]:
+      - 'link "Test Case 2: Login User with correct email and password" [ref=f10e52] [cursor=pointer]':
+        - /url: "#collapse2"
+    - heading [level=4] [ref=f10e56]:
+      - 'link "Test Case 3: Login User with incorrect email and password" [ref=f10e57] [cursor=pointer]':
+        - /url: "#collapse3"
+    - heading [level=4] [ref=f10e61]:
+      - 'link "Test Case 4: Logout User" [ref=f10e62] [cursor=pointer]':
+        - /url: "#collapse4"
+    - heading [level=4] [ref=f10e66]:
+      - 'link "Test Case 5: Register User with existing email" [ref=f10e67] [cursor=pointer]':
+        - /url: "#collapse5"
+    - heading [level=4] [ref=f10e71]:
+      - 'link "Test Case 6: Contact Us Form" [ref=f10e72] [cursor=pointer]':
+        - /url: "#collapse6"
+    - heading [level=4] [ref=f10e76]:
+      - 'link "Test Case 7: Verify Test Cases Page" [ref=f10e77] [cursor=pointer]':
+        - /url: "#collapse7"
+    - heading [level=4] [ref=f10e81]:
+      - 'link "Test Case 8: Verify All Products and product detail page" [ref=f10e82] [cursor=pointer]':
+        - /url: "#collapse8"
+    - heading [level=4] [ref=f10e86]:
+      - 'link "Test Case 9: Search Product" [ref=f10e87] [cursor=pointer]':
+        - /url: "#collapse9"
+    - heading [level=4] [ref=f10e91]:
+      - 'link "Test Case 10: Verify Subscription in home page" [ref=f10e92] [cursor=pointer]':
+        - /url: "#collapse10"
+    - heading [level=4] [ref=f10e96]:
+      - 'link "Test Case 11: Verify Subscription in Cart page" [ref=f10e97] [cursor=pointer]':
+        - /url: "#collapse11"
+    - heading [level=4] [ref=f10e101]:
+      - 'link "Test Case 12: Add Products in Cart" [ref=f10e102] [cursor=pointer]':
+        - /url: "#collapse12"
+    - heading [level=4] [ref=f10e106]:
+      - 'link "Test Case 13: Verify Product quantity in Cart" [ref=f10e107] [cursor=pointer]':
+        - /url: "#collapse13"
+    - heading [level=4] [ref=f10e111]:
+      - 'link "Test Case 14: Place Order: Register while Checkout" [ref=f10e112] [cursor=pointer]':
+        - /url: "#collapse14"
+    - heading [level=4] [ref=f10e116]:
+      - 'link "Test Case 15: Place Order: Register before Checkout" [ref=f10e117] [cursor=pointer]':
+        - /url: "#collapse15"
+    - heading [level=4] [ref=f10e121]:
+      - 'link "Test Case 16: Place Order: Login before Checkout" [ref=f10e122] [cursor=pointer]':
+        - /url: "#collapse16"
+    - heading [level=4] [ref=f10e126]:
+      - 'link "Test Case 17: Remove Products From Cart" [ref=f10e127] [cursor=pointer]':
+        - /url: "#collapse17"
+    - heading [level=4] [ref=f10e131]:
+      - 'link "Test Case 18: View Category Products" [ref=f10e132] [cursor=pointer]':
+        - /url: "#collapse18"
+    - heading [level=4] [ref=f10e136]:
+      - 'link "Test Case 19: View & Cart Brand Products" [ref=f10e137] [cursor=pointer]':
+        - /url: "#collapse19"
+    - heading [level=4] [ref=f10e141]:
+      - 'link "Test Case 20: Search Products and Verify Cart After Login" [ref=f10e142] [cursor=pointer]':
+        - /url: "#collapse20"
+    - heading [level=4] [ref=f10e146]:
+      - 'link "Test Case 21: Add review on product" [ref=f10e147] [cursor=pointer]':
+        - /url: "#collapse21"
+    - heading [level=4] [ref=f10e151]:
+      - 'link "Test Case 22: Add to cart from Recommended items" [ref=f10e152] [cursor=pointer]':
+        - /url: "#collapse22"
+    - heading [level=4] [ref=f10e156]:
+      - 'link "Test Case 23: Verify address details in checkout page" [ref=f10e157] [cursor=pointer]':
+        - /url: "#collapse23"
+    - heading [level=4] [ref=f10e161]:
+      - 'link "Test Case 24: Download Invoice after purchase order" [ref=f10e162] [cursor=pointer]':
+        - /url: "#collapse24"
+    - heading [level=4] [ref=f10e166]:
+      - 'link "Test Case 25: Verify Scroll Up using ''Arrow'' button and Scroll Down functionality" [ref=f10e167] [cursor=pointer]':
+        - /url: "#collapse25"
+    - heading [level=4] [ref=f10e171]:
+      - 'link "Test Case 26: Verify Scroll Up without ''Arrow'' button and Scroll Down functionality" [ref=f10e172] [cursor=pointer]':
+        - /url: "#collapse26"
+    - generic [ref=f10e174]:
+      - heading [level=4] [ref=f10e176]:
+        - link "Feedback for Us" [ref=f10e177] [cursor=pointer]:
+          - /url: "#feedback"
+      - list [ref=f10e179]:
+        - listitem [ref=f10e180]: We have identified above scenarios and added in the list.
+        - listitem [ref=f10e181]: You can explore more test cases in the website and if you find new test scenario that is not covered in above list, do let us know. We will definitely add that in above list.
+        - listitem [ref=f10e182]:
+          - text: If you think, this website should cover up any particular feature, kindly share with us at
+          - link "feedback@automationexercise.com" [ref=f10e183] [cursor=pointer]:
+            - /url: mailto:feedback@automationexercise.com
+          - text: . We will work on that part. Your feedback matters a lot.
+  - insertion [ref=f10e185]:
+    - generic [ref=f10e188]:
+      - heading "These are topics related to the article that might interest you" [level=2] [ref=f10e190]: Discover more
+      - link "Software Testing Courses" [ref=f10e191] [cursor=pointer]
+      - link "Automation Testing Tools" [ref=f10e196] [cursor=pointer]
+      - link "Automation Practice Website" [ref=f10e201] [cursor=pointer]
+  - contentinfo [ref=f10e206]:
+    - generic [ref=f10e211]:
+      - heading "Subscription" [level=2] [ref=f10e212]
+      - generic [ref=f10e213]:
+        - textbox "Your email address" [ref=f10e214]
+        - button "" [ref=f10e215] [cursor=pointer]
+        - paragraph [ref=f10e217]: Get the most recent updates from our site and be updated your self...
+    - paragraph [ref=f10e221]: Copyright © 2021 All rights reserved
+  - text: 

@@ -5,6 +5,9 @@ import { SignUpPage } from "../pages/SignUpPage";
 import {AccountCreated} from '../pages/AccountCreatedPage';
 import { deleteAccountPage } from '../pages/deleteAccountPage';
 import { ContactUsPage } from '../pages/ContactUsPage';
+import { TestCasesPage } from '../pages/TestCasesPage';
+import { ProductDetailsPage } from '../pages/ProductDetailsPage';
+import { ProductsPage } from '../pages/ProductsPage';
 
 type myFixture = {
     homepage : HomePage;
@@ -13,7 +16,9 @@ type myFixture = {
     acccreatedpage :AccountCreated;
     deleteaccountpage : deleteAccountPage;
     contactus : ContactUsPage;
-    
+    testcasespage : TestCasesPage;
+    productspage: ProductsPage;
+    productdetailspage: ProductDetailsPage;
 }
 
 export const test = base.extend<myFixture>({
@@ -37,7 +42,16 @@ export const test = base.extend<myFixture>({
     },
     contactus : async({page}, use)=>{
         await use ( new ContactUsPage(page));
-    }
+    },
+    testcasespage : async({page}, use)=>{
+        await use ( new TestCasesPage(page));
+    },
+    productspage: async ({page}, use) => {
+        await use(new ProductsPage(page));
+    },
+    productdetailspage: async ({page}, use) => {
+        await use(new ProductDetailsPage(page));
+    },
 
 })
 

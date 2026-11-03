@@ -1,3 +1,4 @@
+import { ContactUs } from "../pages/ContactUsPage";
 import { SignUpPage } from "../pages/SignUpPage";
 
 export const TEST_DATA = {
@@ -42,6 +43,14 @@ export const TEST_DATA = {
         contactUs : '/contact_us',
         accountcreated : '/account_created',
         deleteAccount : '/delete_account',
+    },
+
+    ContactUs:
+    {
+        name : 'ABC',
+        email : 'rahulpdhule@gmail.com',
+        subject : 'testing Contact Us functionality',
+        message : 'Entered correct details and uploaded file successfully'
     }
    
 }

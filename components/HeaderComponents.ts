@@ -4,14 +4,14 @@ import {Page, Locator} from '@playwright/test'
 export class HeaderComponent{
 
     private readonly page : Page;
-    link_Home : Locator;
-    link_Products:Locator;
-    link_Cart : Locator;
-    link_SignUp_Login : Locator;
+    private readonly link_Home : Locator;
+    private readonly link_Products:Locator;
+    private readonly link_Cart : Locator;
+    private readonly link_SignUp_Login : Locator;
     link_TestCases:Locator;
-    link_APITesting :Locator;
-    link_VedioTutorials : Locator;
-    link_ContactUs : Locator
+    private readonly link_APITesting :Locator;
+    private readonly link_VedioTutorials : Locator;
+    private readonly link_ContactUs : Locator
 
     constructor(page:Page){
         this.page = page;

@@ -7,7 +7,7 @@ export class ProductsPage extends BasePage {
     private readonly firstProductViewLink: Locator;
     private readonly searchInput: Locator;
     private readonly searchButton: Locator;
-    private readonly searchedProductsHeading: Locator;
+    searchedProductsHeading: Locator;
 
     constructor(page: Page) {
         super(page);

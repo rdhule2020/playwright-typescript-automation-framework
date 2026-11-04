@@ -8,6 +8,9 @@ import { ContactUsPage } from '../pages/ContactUsPage';
 import { TestCasesPage } from '../pages/TestCasesPage';
 import { ProductDetailsPage } from '../pages/ProductDetailsPage';
 import { ProductsPage } from '../pages/ProductsPage';
+import { SubscriptionPage } from '../pages/SubscriptionPage';
+import { CartPage } from '../pages/CartPage';
+
 
 type myFixture = {
     homepage : HomePage;
@@ -19,6 +22,8 @@ type myFixture = {
     testcasespage : TestCasesPage;
     productspage: ProductsPage;
     productdetailspage: ProductDetailsPage;
+    subscriptionpage: SubscriptionPage;
+    cartpage :CartPage;
 }
 
 export const test = base.extend<myFixture>({
@@ -52,7 +57,12 @@ export const test = base.extend<myFixture>({
     productdetailspage: async ({page}, use) => {
         await use(new ProductDetailsPage(page));
     },
-
+    cartpage : async({page}, use)=>{
+        await use(new CartPage(page));
+    },
+    subscriptionpage: async ({page}, use) => {
+        await use(new SubscriptionPage(page));
+    },
 })
 
 export {expect} from '@playwright/test'

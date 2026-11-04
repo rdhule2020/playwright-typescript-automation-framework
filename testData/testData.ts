@@ -51,6 +51,9 @@ export const TEST_DATA = {
         email : 'rahulpdhule@gmail.com',
         subject : 'testing Contact Us functionality',
         message : 'Entered correct details and uploaded file successfully'
-    }
+    },
+    search: {
+    productName: 'Blue Top'
+    },
    
 }

@@ -39,5 +39,9 @@ export class HomePage extends BasePage{
     async deleteAcccount(){
         await this.deleteAccountLink.click();
     }
+
+    async isHomePageTitleCorrect(): Promise<boolean> {
+    return (await this.page.title()) === 'Automation Exercise';
+}
     
 }

@@ -14,7 +14,7 @@ test('Search Product', async ({page, loginpage, homepage, productspage}) => {
 
     await productspage.searchForProduct(TEST_DATA.search.productName);
 
-    expect(await productspage.isSearchedProductsHeadingVisible()).toBe(true);
+    await expect(productspage.searchedProductsHeading).toBeVisible();
     expect(await productspage.isProductListVisible()).toBe(true);
     expect(await productspage.getProductCount()).toBeGreaterThan(0);
     expect(await productspage.areSearchResultsMatching(TEST_DATA.search.productName)).toBe(true);

@@ -12,3 +12,4 @@ test(' Verify Subscription in Cart page', async ({page, loginpage, homepage,cart
     await expect(cartpage.footer.successMessage).toBeVisible();
     
 });
+

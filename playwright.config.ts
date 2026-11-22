@@ -8,7 +8,7 @@ export default defineConfig({
   retries:2,
   //workers: process.env.CI ? 1 : undefined,
   workers: 2,
-  reporter :  process.env.CI ? 'blob' : 'html'
+  reporter :  process.env.CI ? 'blob' : 'html',
   // reporter: [
   //   ['html'],
   //   ['allure-playwright'],

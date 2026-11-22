@@ -9,12 +9,12 @@ export default defineConfig({
   //workers: process.env.CI ? 1 : undefined,
   workers: 2,
   reporter :  process.env.CI ? 'blob' : 'html'
-  reporter: [
-    ['html'],
-    ['allure-playwright'],
-    ['dot'],
-    ['list']
-  ],
+  // reporter: [
+  //   ['html'],
+  //   ['allure-playwright'],
+  //   ['dot'],
+  //   ['list']
+  // ],
 
   use: {
     trace: 'on-first-retry',

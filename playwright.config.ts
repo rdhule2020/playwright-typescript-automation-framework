@@ -8,13 +8,13 @@ export default defineConfig({
   retries:2,
   //workers: process.env.CI ? 1 : undefined,
   workers: 2,
-  reporter :  'blob',
-  // reporter: [
-  //   ['html'],
-  //   ['allure-playwright'],
-  //   ['dot'],
-  //   ['list']
-  // ],
+  reporter :  process.env.CI ? 'blob' : 'html'
+  reporter: [
+    ['html'],
+    ['allure-playwright'],
+    ['dot'],
+    ['list']
+  ],
 
   use: {
     trace: 'on-first-retry',
